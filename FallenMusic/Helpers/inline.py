@@ -95,7 +95,7 @@ helpmenu = [
         InlineKeyboardButton(text="👮 ᴏᴡɴᴇʀ 👮", callback_data="fallen_cb owner"),
     ],
     [
-        InlineKeyboardButton(text="🏡 ʙᴀᴄᴋ 🏡", callback_data="fallen_home"),
+        InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ 🔙", callback_data="fallen_home"),
         InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ 🗑", callback_data="close"),
     ],
 ]
@@ -104,7 +104,7 @@ helpmenu = [
 help_back = [
     [InlineKeyboardButton(text="✨ sᴜᴩᴩᴏʀᴛ ✨", url=config.SUPPORT_CHAT)],
     [
-        InlineKeyboardButton(text="⁉ ʙᴀᴄᴋ ⁉", callback_data="fallen_help"),
+        InlineKeyboardButton(text="🔙 ʙᴀᴄᴋ 🔙", callback_data="fallen_help"),
         InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ 🗑", callback_data="close"),
     ],
 ]
